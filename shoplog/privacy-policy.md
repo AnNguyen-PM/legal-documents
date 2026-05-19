@@ -112,23 +112,3 @@ We may update this Privacy Policy from time to time. When we do, we will update 
 ## 12. Contact
 
 Questions about this Privacy Policy? Email us at **nguyenhongan109@gmail.com**.
-
----
-
-<!--
-TEMPLATE NOTES — REMOVE BEFORE PUBLISHING:
-
-Replace the following placeholders:
-- [DATE] (twice) — set effective + last updated dates
-- Hong An Nguyen (twice) — the legal name of the publisher
-- nguyenhongan109@gmail.com (twice) — the contact email shop owners can reach you at
-
-If you add features in the future that DO transmit data to your servers
-(e.g., cloud sync, multi-device), this policy must be updated to disclose
-that BEFORE the new feature ships. Apple's review checks for accuracy.
-
-This document is a starting template, not legal advice. For high-risk
-jurisdictions (EU/UK, California with >100k users), consider consulting
-a privacy lawyer or using a generator like Termly or iubenda that
-validates against current regulations.
--->

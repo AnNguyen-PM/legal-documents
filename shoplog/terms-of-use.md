@@ -126,7 +126,7 @@ We may update these Terms from time to time. Material changes will be announced 
 
 ## 14. Governing law and disputes
 
-These Terms are governed by the laws of [YOUR_STATE/COUNTRY — e.g. "the State of California, United States"], without regard to conflict-of-law principles. Any dispute arising out of or relating to these Terms or the App will be brought exclusively in the courts located in [YOUR_COUNTY/CITY, STATE/COUNTRY], and you consent to the jurisdiction of those courts.
+These Terms are governed by the laws of the State of Texas, United States, without regard to conflict-of-law principles. Any dispute arising out of or relating to these Terms or the App will be brought exclusively in the state or federal courts located in Nueces County, Texas, and you consent to the jurisdiction of those courts.
 
 If you are a consumer in a jurisdiction whose laws grant you rights that cannot be waived by contract (e.g., EU/UK consumer protection law), nothing in these Terms is intended to override those rights.
 
@@ -145,28 +145,3 @@ These Terms, together with our [Privacy Policy](./privacy-policy.md) and Apple's
 ## 18. Contact
 
 Questions about these Terms? Email us at **nguyenhongan109@gmail.com**.
-
----
-
-<!--
-TEMPLATE NOTES — REMOVE BEFORE PUBLISHING:
-
-Replace the following placeholders:
-- [DATE] (twice) — set effective + last updated dates
-- Hong An Nguyen — the legal name of the publisher
-- nguyenhongan109@gmail.com (twice) — your contact email
-- [YOUR_STATE/COUNTRY] — governing law jurisdiction (e.g. "the State of California, United States")
-- [YOUR_COUNTY/CITY, STATE/COUNTRY] — venue for disputes
-
-Specific to your situation:
-- If you offer a free trial, keep section 3.6; otherwise delete it.
-- If you operate outside the US, replace the USD $50 cap with your local
-  currency equivalent and reconsider the venue clause.
-- If you ever add features beyond the optional Square integration that
-  process payment data, update section 5 and your Privacy Policy.
-
-This document is a starting template, not legal advice. For a real
-small-business product, consider a quick review by an attorney in your
-jurisdiction OR run it through a generator like Termly/iubenda that
-validates against current regulations and your specific business model.
--->
