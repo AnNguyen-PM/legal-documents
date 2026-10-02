@@ -1,11 +1,11 @@
 # Privacy Policy
 
 **Effective Date:** 2026-05-19
-**Last Updated:** 2026-05-19
+**Last Updated:** 2026-10-02
 
 This Privacy Policy explains how Shoplog ("the App", "we", "us", or "our"), published by Hong An Nguyen ("the Publisher"), handles information when you use Shoplog on your iPhone or iPad.
 
-**Plain-language summary:** Shoplog is an offline-first app that stores all of your shop's data on your device. We do not run servers, do not have user accounts, and do not collect, transmit, or sell your data or your customers' data. The only data that leaves your device is what you explicitly send (printing a receipt, sharing an export, processing a card via Square, etc.).
+**Plain-language summary:** Shoplog is an offline-first app that stores all of your shop's data on your device. We do not run servers, do not have user accounts, and do not collect, transmit, or sell your data or your customers' data. The only data that leaves your device is what you explicitly send (printing a receipt, texting a customer, sharing a backup or export, processing a card via Square, etc.).
 
 ---
 
@@ -26,6 +26,8 @@ Specifically, the App accesses the following on your device, only when you ask i
 | **Photos** you take with the camera or pick from your library | To attach to orders and receipts | Stored only inside the app's private sandbox on your device — not in your device's Photo Library |
 | **Payment records** (amounts, methods, tips) | So you can track what's owed and what's been paid | Stored only on your device |
 | **Shop settings** (your shop's name, address, currency, timezone, tax rate) | To configure the App and print receipts | Stored only on your device |
+| **Appointments** (time, customer, notes) | So you can book fittings, drop-offs and pickups | Stored only on your device |
+| **App passcode** | So only you can open the App | Stored only on your device, in the iOS Keychain |
 
 If you uninstall the App, all of this data is deleted by iOS along with the app sandbox.
 
@@ -36,7 +38,7 @@ To be explicit, the Publisher does not:
 - Operate any servers that receive your shop's data
 - Require an account, login, or sign-up
 - Track your location
-- Collect usage analytics by default
+- Collect usage analytics
 - Show ads or share data with advertisers
 - Sell, rent, or share your data with any third party
 - Read or scan the contents of your customers' information
@@ -45,14 +47,16 @@ To be explicit, the Publisher does not:
 
 When you use certain features, iOS will ask you to grant the following permissions. We only access these for the stated purpose and only on your device:
 
-- **Camera** — to take photos to attach to orders.
+- **Camera** — to take photos to attach to orders, and to scan the barcode on a ticket to find its order.
 - **Photo Library (read)** — to let you pick existing photos to attach to orders.
+- **Face ID** — to unlock the App and confirm changes like deleting an order, if you turn on the app passcode. iOS performs the Face ID check; the App only learns whether it succeeded and never receives your face data.
+- **Notifications** — to remind you of upcoming appointments. Reminders are scheduled on your device; nothing is sent through our servers (we don't have any).
 
-You can revoke either permission at any time in iOS Settings → Shoplog. The App will continue to work without them; features that depend on them will be disabled.
+You can revoke any of these permissions at any time in iOS Settings → Shoplog. The App will continue to work without them; features that depend on them will be disabled.
 
 ## 5. Subscriptions and in-app purchases
 
-Shoplog offers an optional "Pro" subscription. Subscription purchases are processed entirely by **Apple's App Store** and Apple's StoreKit framework. We do not receive your payment details, credit card number, or Apple ID. We only receive a receipt from Apple confirming whether your subscription is active.
+Shoplog offers an optional "Pro" subscription. Subscription purchases, and any promotional offer codes you redeem, are processed entirely by **Apple's App Store** and Apple's StoreKit framework. We do not receive your payment details, credit card number, or Apple ID. We only receive a receipt from Apple confirming whether your subscription is active.
 
 Apple's handling of your purchase is governed by [Apple's Privacy Policy](https://www.apple.com/legal/privacy/).
 
@@ -63,19 +67,35 @@ The App offers **optional** integrations that send data outside your device only
 ### Square Point of Sale (optional, off by default)
 If you enable Square POS to charge a card, the App opens Square's app via a URL scheme and passes the order amount. Square processes the card payment and returns the result to Shoplog. Card details, customer identity, and payment processing are governed by [Square's Privacy Notice](https://squareup.com/legal/privacy-no-account). The Publisher does not see or store your customers' card information.
 
-### Printing and Sharing
-If you print a receipt or share an export, iOS handles the operation. The destination (printer, AirDrop recipient, email, etc.) is whatever you choose at the moment of sharing.
+### Texting your customers
+If you text a customer from the App (for example, "your order is ready"), the App opens iOS Messages with the customer's phone number and the message filled in. You review and send it yourself. The message is delivered by Apple (iMessage) or your mobile carrier (SMS), under their terms; the Publisher never receives it.
+
+### Printing, backups and sharing
+If you print a receipt, share a CSV export, or save a backup file, iOS handles the operation. The destination (printer, Files, iCloud Drive, AirDrop recipient, email, etc.) is whatever you choose at the moment of sharing. A backup file contains your shop's data, including your customers' information, so keep it somewhere safe.
 
 ### iCloud Backup (controlled by iOS)
 If you have iCloud Backup enabled in iOS Settings, Apple includes the App's data in your encrypted device backup. This is governed by Apple, not the Publisher. You can exclude Shoplog from iCloud Backup in iOS Settings → [Your Apple ID] → iCloud → Manage Storage → Backups.
 
 ## 7. Crash reports and diagnostics
 
-The App may collect anonymized crash diagnostics to help us fix bugs. If we do this:
+The App itself does not send crash reports or diagnostics. If you choose to share analytics with app developers in iOS, **Apple** may send us crash reports for the App:
 
 - Reports contain technical information about the crash (stack trace, iOS version, device model) but no personal information from your shop's data
-- Reports are sent only after a crash, never during normal use
-- You can opt out of diagnostic sharing in iOS Settings → Privacy & Security → Analytics & Improvements
+- Apple collects and delivers these reports; the Publisher receives them through App Store Connect
+- You can turn this off at any time in iOS Settings → Privacy & Security → Analytics & Improvements → Share With App Developers
+
+<!--
+If crash reporting with Sentry is turned on, replace the section above with:
+
+The App uses **Sentry** (Functional Software, Inc.) to report crashes and errors so we can fix bugs. When the App crashes or hits an error, it sends Sentry a report containing:
+
+- Technical details: the error and where in the code it happened, the App version, iOS version and device model
+- No shop data: no customer names, phone numbers, orders, photos or payment details, and no IP-based identity (personal data sending is turned off)
+
+Reports are not linked to you or used to track you, and are kept for Sentry's standard retention period. Sentry's handling of this data is governed by Sentry's Privacy Policy (https://sentry.io/privacy/).
+
+Apple may also send us crash reports if you share analytics with app developers; you can turn that off in iOS Settings → Privacy & Security → Analytics & Improvements → Share With App Developers.
+-->
 
 ## 8. Your customers' data and your responsibilities as a shop owner
 
@@ -97,7 +117,7 @@ Shoplog is intended for use by adults operating a business. The App is not direc
 Because all data is stored locally on your device, you have direct control over it at all times. You can:
 
 - **Access** your data — it's visible to you in the App.
-- **Export** your data — use the Backup & Export features in Settings to produce CSV files or backups.
+- **Export** your data — use Backup and the CSV export in the App to produce backup files or spreadsheets.
 - **Delete** specific records — soft-delete in the App, then "Recently deleted" → permanent delete.
 - **Delete all data** — uninstall the App from your device.
 

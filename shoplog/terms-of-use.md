@@ -1,7 +1,7 @@
 # Terms of Use
 
 **Effective Date:** 2026-05-19
-**Last Updated:** 2026-05-19
+**Last Updated:** 2026-10-02
 
 These Terms of Use ("Terms") govern your use of the Shoplog mobile application ("the App"), published by Hong An Nguyen ("we", "us", or "our"). By downloading, installing, or using the App, you agree to these Terms. If you do not agree, do not use the App.
 
@@ -20,7 +20,7 @@ You must be at least 18 years old, or the age of legal majority in your jurisdic
 ## 3. Subscriptions and billing
 
 ### 3.1 Free and Pro tiers
-The App offers a free tier with limited functionality and an optional paid "Pro" subscription that unlocks additional features.
+The App offers a free tier with limited functionality and an optional paid "Pro" subscription that unlocks additional features. The free tier's current limits (for example, how many orders you can create) are shown in the App under Your plan. Records you create are never deleted when you reach a limit.
 
 ### 3.2 Auto-renewal
 Pro subscriptions are billed in advance through your Apple ID on a recurring basis (monthly or annually, depending on the plan you choose). **Subscriptions automatically renew at the end of each billing period unless you cancel at least 24 hours before the period ends.**
@@ -29,13 +29,16 @@ Pro subscriptions are billed in advance through your Apple ID on a recurring bas
 Current subscription prices are shown in the App before you purchase. Prices may change; we will notify you in advance and you will have the option to cancel before the new price takes effect.
 
 ### 3.4 Managing and cancelling
-You can manage or cancel your subscription at any time in iOS Settings → [Your Apple ID] → Subscriptions, or via the "Manage subscription" link in the App. Cancellation takes effect at the end of the current billing period; you retain Pro access until then.
+You can manage or cancel your subscription at any time in iOS Settings → [Your Apple ID] → Subscriptions, or via "Manage in App Store" on the App's Your plan screen. Cancellation takes effect at the end of the current billing period; you retain Pro access until then.
 
 ### 3.5 Refunds
 All purchases are handled by Apple. Refund requests are subject to [Apple's refund policy](https://support.apple.com/en-us/HT204084). We cannot process refunds directly.
 
 ### 3.6 Free trial (if offered)
 If we offer a free trial, you will not be charged during the trial period. If you do not cancel before the trial ends, you will be automatically billed for the subscription.
+
+### 3.7 Promotional offers and codes
+We may give out promotional offer codes that provide Pro free or at a reduced price for a set period. Codes are issued and redeemed through Apple, are single-use unless stated otherwise, have no cash value, and may expire. **When the promotional period ends, the subscription renews at the regular price unless you cancel at least 24 hours before it ends.**
 
 ## 4. Your shop's data
 
@@ -47,9 +50,10 @@ Shop Data is stored locally on your device. We do not access, transmit, copy, or
 
 ### 4.3 Your responsibility
 You are solely responsible for:
-- Backing up your Shop Data (the App provides export tools — use them)
+- Backing up your Shop Data (the App provides backup and export tools — use them)
 - Securing your device (passcode, biometrics, iCloud Backup)
 - Complying with all laws applicable to the customer information you collect (privacy, consumer protection, tax, recordkeeping)
+- Having your customers' permission before you text them, and honoring requests to stop (the App lets you mark a customer "Do not text")
 
 We are not liable for Shop Data loss caused by device damage, loss, theft, iOS bugs, or your failure to back up.
 
@@ -71,6 +75,7 @@ The App offers optional integrations with third-party services, including:
 
 - **Apple App Store / StoreKit** — for in-app purchases and subscriptions
 - **Square Point of Sale** — for accepting card payments (optional)
+- **Apple Messages and your mobile carrier** — for texts you send to customers from the App
 
 When you use these services, you are also bound by the terms and privacy policies of the relevant third-party provider. We are not responsible for the availability, accuracy, or behavior of third-party services.
 
