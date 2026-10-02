@@ -84,19 +84,6 @@ The App itself does not send crash reports or diagnostics. If you choose to shar
 - Apple collects and delivers these reports; the Publisher receives them through App Store Connect
 - You can turn this off at any time in iOS Settings → Privacy & Security → Analytics & Improvements → Share With App Developers
 
-<!--
-If crash reporting with Sentry is turned on, replace the section above with:
-
-The App uses **Sentry** (Functional Software, Inc.) to report crashes and errors so we can fix bugs. When the App crashes or hits an error, it sends Sentry a report containing:
-
-- Technical details: the error and where in the code it happened, the App version, iOS version and device model
-- No shop data: no customer names, phone numbers, orders, photos or payment details, and no IP-based identity (personal data sending is turned off)
-
-Reports are not linked to you or used to track you, and are kept for Sentry's standard retention period. Sentry's handling of this data is governed by Sentry's Privacy Policy (https://sentry.io/privacy/).
-
-Apple may also send us crash reports if you share analytics with app developers; you can turn that off in iOS Settings → Privacy & Security → Analytics & Improvements → Share With App Developers.
--->
-
 ## 8. Your customers' data and your responsibilities as a shop owner
 
 When you enter information about your shop's customers (names, phone numbers, etc.), **you** decide what to enter and **you** are responsible for handling that information in accordance with the laws that apply to your business and location. Depending on your jurisdiction, this may include:
